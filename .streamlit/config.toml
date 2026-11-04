@@ -1,0 +1,18 @@
+# Tema Suiçatech escuro: cores extraídas da logo (ver tema.py e extrair_paleta.py).
+# Fundo no grafite da logo (#231F20, o "INTRACE Br"), texto em branco suavizado
+# e vermelho Suiçatech como acento. primaryColor usa o vermelho da logo
+# levemente escurecido (#E7231E), que mantém 4,5:1 com o texto branco de
+# botões e tags e aparece bem sobre o fundo escuro.
+[theme]
+base = "dark"
+primaryColor = "#E7231E"
+backgroundColor = "#231F20"
+secondaryBackgroundColor = "#322F30"
+textColor = "#EDEDED"
+font = "sans serif"
+
+[server]
+runOnSave = false
+
+[browser]
+gatherUsageStats = false

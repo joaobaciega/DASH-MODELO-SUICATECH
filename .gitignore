@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+# Arquivos temporários do Excel aberto
+~$*.xlsx
+# base_modelo.xlsx NÃO é ignorado: o app lê dele no Streamlit Cloud.
